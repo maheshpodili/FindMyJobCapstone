@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_alignParentBottom="true"
+    android:padding="40dp"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/quicksand_bold"
+        android:text="Create Account"
+        android:textColor="#0F0F0F"
+        android:textSize="34dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="42dp"
+        android:background="@drawable/bg_editext"
+        android:hint="Name"
+        android:paddingLeft="18dp"
+        android:id="@+id/name"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/bg_editext"
+        android:hint="Mobile Number"
+        android:id="@+id/mobile"
+        android:paddingLeft="18dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/bg_editext"
+        android:hint="E-Mail"
+        android:paddingLeft="18dp"
+        android:id="@+id/et1"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/bg_editext"
+        android:hint="Password"
+        android:paddingLeft="18dp"
+        android:id="@+id/et2"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/bg_btn"
+        android:text="Create Account"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"
+        android:id="@+id/reg"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="@font/quicksand_book"
+        android:text="Already a member? Login"
+        android:textColor="#363636"
+        android:textSize="16dp"
+        android:paddingTop="15dp"
+        android:onClick="login"/>
+
+
+</LinearLayout>

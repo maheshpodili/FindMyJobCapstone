@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    android:background="@color/colorAccent">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:src="@drawable/logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:padding="20dp"
+        android:id="@+id/images"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STEN"
+        android:textColor="#FFFF"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="25dp"
+        android:id="@+id/names"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Someone@gmail.com"
+        android:textColor="#FFFF"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="25dp"
+        android:id="@+id/emails"
+
+        />
+
+</LinearLayout>

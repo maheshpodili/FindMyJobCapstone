@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+  <item
+      android:id="@+id/homeactivity"
+      app:showAsAction="never"
+      android:title="@string/home"
+      android:icon="@drawable/ic_home"/>
+    <item
+        android:id="@+id/savedjobs"
+        app:showAsAction="never"
+        android:title="@string/Favourite"
+        android:icon="@drawable/ic_favorite"
+        />
+    <item android:id="@+id/settingss"
+        android:title="Settings"
+        android:icon="@drawable/ic_settings"
+
+        />
+    <item android:id="@+id/Language"
+        android:title="Language"
+        android:icon="@drawable/ic_language"
+        />
+
+    <item android:id="@+id/shareapp"
+        android:title="Shareapp"
+        android:icon="@drawable/ic_share"/>
+
+    <item android:id="@+id/rateus"
+        android:title="Rateus"
+        android:icon="@drawable/ic_rate_review"/>
+
+    <item
+        android:id="@+id/signout"
+        app:showAsAction="never"
+        android:title="@string/sign_out"
+        android:icon="@drawable/ic_exit"
+        />
+
+
+
+
+</menu>

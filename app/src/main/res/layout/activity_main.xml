@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bgcard"
+        android:orientation="vertical"
+        android:padding="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="Find My job"
+            android:textColor="#0F0F0F"
+            android:textSize="34dp" />
+
+
+        <EditText
+            android:id="@+id/remail"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="42dp"
+            android:background="@drawable/bg_editext"
+            android:hint="E-mail"
+            android:paddingLeft="18dp"
+            android:inputType="textEmailAddress"
+            />
+
+        <EditText
+            android:id="@+id/rpass"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/bg_editext"
+            android:hint="Password"
+            android:paddingLeft="18dp"
+            android:inputType="textPassword"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/bg_btn"
+            android:id="@+id/signin"
+            android:textColor="#1A1919"
+            android:text="login"
+            android:textSize="16dp" />
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/sign_in_button"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="28dp"
+            android:paddingTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/createacc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingVertical="15dp"
+                android:fontFamily="@font/quicksand_book"
+                android:text="Create Account"
+                android:textColor="#363636"
+                android:textSize="16dp"
+                android:onClick="create"/>
+
+            <TextView
+                android:id="@+id/forgotpassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="4dp"
+                android:fontFamily="@font/quicksand_book"
+                android:text="Forgot Password"
+                android:textColor="#1F1F1F"
+                android:textSize="16dp"
+                android:paddingVertical="15dp"
+                android:onClick="forgotpass"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

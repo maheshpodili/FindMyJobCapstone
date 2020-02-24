@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "684709739039",
+    "firebase_url": "https://findmyjobcapstone.firebaseio.com",
+    "project_id": "findmyjobcapstone",
+    "storage_bucket": "findmyjobcapstone.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:684709739039:android:02d681aebab11c76",
+        "android_client_info": {
+          "package_name": "com.example.harish.findmyjobcapstone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "684709739039-r0p3cdk4jkm700edsu3s27lk2v556e6o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.harish.findmyjobcapstone",
+            "certificate_hash": "b1b06de80de3880529a68c67335f15373faf9237"
+          }
+        },
+        {
+          "client_id": "684709739039-ujgvma3m8lddj1rjkjjep9mtqo3c9rvb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeZldb0kl70zhdwA3vBkDe_AtElREj2tQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "684709739039-ujgvma3m8lddj1rjkjjep9mtqo3c9rvb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
